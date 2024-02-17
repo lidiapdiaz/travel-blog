@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+<a href="/index.html">volver</a>
+
+    <form action="" method="get">
+
+    <fieldset name="datoscliente">
+        <legend for="datoscliente">Datos cliente:</legend>
+<div>
+        <label for="name" >Nombre:</label>
+        <input type="text" id="name" name="name"/>
+</div>
+<div>
+        <label for="lastname" >Apellidos:</label>
+        <input type="text" id="lastname" name="lastname"/>
+</div>
+<div>
+        <label for="email" >E-mail:</label>
+        <input type="email" id="email" name="email"/>
+</div>
+    </fieldset>
+<br>
+    <fieldset>
+        <legend for="datoscliente">Otra cosa:</legend>
+<div>
+    <select name="pais" id="pais">
+        <option value="España">España</option>
+        <option value="Mordor">Mordor</option>
+        <option value="Isengard">Isengard</option>
+    </select>
+    <br>
+    <br>
+</div>
+<div>
+    <label for="message">Deja un mensaje</label><br>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+</div>
+    </fieldset>
+    <input type="checkbox" name="rgpd" id="rgpd"/>
+    <label for="rgpd">Acepto términos y condiciones</label>
+<br>
+<button type="submit">E N V I A R</button>
+</form>
+    
+</body>
+</html>

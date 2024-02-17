@@ -1,0 +1,97 @@
+/* - - - ESTILOS GLOBALES - - -*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #f7f7f6c7;
+    /*en vez de usar display flex centreino asi*/
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*Familia de fontes para os headers*/
+h1,h2,h3,h4,h4,h6{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: #00559b;
+    margin: 0.55em 0;
+}
+
+/* - - - HEADER - - -*/
+
+.svg{
+    width: 40px;
+    height: 40px;
+    stroke-width:3;
+    stroke-miterlimit:10;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #e8eaf5c7;
+}
+
+
+/*posicionamiento do menu*/
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+/* - - - CONTIDO - - -*/
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: #2525251f 2px 2px 5px; 
+    padding: 1em;
+    margin: 0.8em;
+    max-width: 400px;
+}
+
+article:hover{
+    box-shadow: #252525b1 2px 2px 5px;
+}
+
+.price{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    margin: 1em 0;
+    color: #00559b;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #00559b;
+    color: #ffffff;
+    
+}
+
+footer{
+    background-color: #e8eaf5c7;
+    text-align: center;
+    height: 35px;
+    padding-top: 1.2em;
+}
