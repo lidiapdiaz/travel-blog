@@ -1,3 +1,3 @@
 Repositorio para practicar comandos de git
 
-probado desde ubuntu 2
+probado desde ubuntu otra vez
